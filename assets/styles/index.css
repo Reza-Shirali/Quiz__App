@@ -1,0 +1,39 @@
+.title__web {
+  color: #6757d9;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 20px;
+}
+
+.link__btn {
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  color: #6757d9;
+  text-decoration: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: all 250ms ease-in 20ms;
+  -webkit-transition: all 250ms ease-in 20ms;
+  -moz-transition: all 250ms ease-in 20ms;
+  -ms-transition: all 250ms ease-in 20ms;
+  -o-transition: all 250ms ease-in 20ms;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.link__btn:hover {
+  background-color: #6757d9;
+  color: #fff;
+}
